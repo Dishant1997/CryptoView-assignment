@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./src/config/db');
 const nftRoutes = require('./src/routes/nftRoutes');
+const balanceRoutes = require('./src/routes/balanceRoutes')
 
 dotenv.config();
 const app = express();
@@ -15,6 +16,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api/nft', nftRoutes);
+app.use('/api/balance', balanceRoutes);
 
 // Start server
 app.listen(PORT, () => {
