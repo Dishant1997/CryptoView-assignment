@@ -49,10 +49,9 @@ Build an API endpoint that accepts a token contract address and a wallet address
 ---
 
 ## Setup Instructions
-
+```bash
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/Dishant1997/CryptoView-assignment.git
 cd CryptoView-assignment
 
