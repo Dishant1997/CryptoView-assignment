@@ -57,17 +57,14 @@ git clone https://github.com/Dishant1997/CryptoView-assignment.git
 cd CryptoView-assignment
 
 ### 2. Install Dependencies
-```bash
 npm install
 
 ### 3. Create and Configure .env File
-```bash
 WEB3_PROVIDER_URL=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
 MONGODB_URI=mongodb://localhost:27017/nft_metadata
 PORT=5000
 
 ### 4. Run the Application
-```bash
 npm run dev
 
 Endpoint: POST /api/nft/metadata
